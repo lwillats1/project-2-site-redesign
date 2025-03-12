@@ -8,3 +8,9 @@ body{
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
+.content {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 95%;
+}
