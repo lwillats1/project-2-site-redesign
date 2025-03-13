@@ -18,13 +18,23 @@ body{
     width: 1440px;
 }
 .title {
+    display:flexbox;
     font-size: 200px;
     font-style: normal;
     font-weight: 400;
     height: 146px;
     line-height: 50px;
+
 }
 .toolbar {
+    flex-direction: row;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    height: 36px;
+    line-height: 500px;
+}
+.login {
     flex-direction: row;
     font-size: 32px;
     font-style: normal;
