@@ -1,5 +1,10 @@
+html,
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
 body {
-    background: red;
+    background: #5d6949;
 }
 
 #play {
@@ -8,4 +13,8 @@ body {
 
 #puzzles {
     color: blue;
+}
+
+#news {
+    color: antiquewhite;
 }
