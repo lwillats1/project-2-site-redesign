@@ -4,14 +4,6 @@ html,
 *, *::before, *::after {
     box-sizing: border-box;
 }
-.container {
-    background-image: url("../Images/pawn.png");
-    background-image: url("../Images/rook.png");
-    background-image: url("../Images/knight.png");
-    display: flex;
-    flex-direction: row;
-}
-
 body{
     align-content: space-between;
     background-color: #5d6949;
@@ -24,7 +16,6 @@ body{
     margin: 0;
     text-align: center;
     width: 1440px;
-    z-index: -1;
 }
 .title {
     display:flexbox;
@@ -36,22 +27,19 @@ body{
 
 }
 .toolbar {
-    background-image: url("../Images/pawn.png");
-    background-image: url("../Images/rook.png");
-    background-image: url("../Images/knight.png");
-    display: flex;    flex-direction: row;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    height: 36px;
-    line-height: 500px;
-    z-index: 3;
-}
-.login {
+    display: flex;   
     flex-direction: row;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
     height: 36px;
     line-height: 500px;
+}
+.login {
+    align-content: center;
+    flex-direction: row;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    height: 36px;
 }
