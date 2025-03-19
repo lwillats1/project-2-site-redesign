@@ -7,14 +7,141 @@ body {
     background: #5d6949;
 }
 
-#play {
-    color: yellow;
+#Learn {
+    background-image: url("../Images/learn.png")
 }
+
+#play {
+    background-image: url("../Images/play.png");
+    color: #DAE6C6;
+    width: 1440px;
+    height: 1774px;
+    flex-shrink: 0;
+    
+}
+    .firstboard {
+        margin: ;
+    }
+    .Play{
+        background-color: #DAE6C6;
+        border: #DAE6C6;
+        border-radius: 21px;
+        border-width: 319px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: #323E1E;
+        flex-shrink: 0;
+        font-family: "Julius Sans One";
+        font-size: 69px;
+        font-style: normal;
+        font-weight: 400;     
+        height: 40px;
+        height: 84px;
+        line-height: normal;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
+        width: 184px;
+
+    }
+    .Bots {
+        background-color: #DAE6C6;
+        border: #DAE6C6;
+        border-radius: 21px;
+        border-width: 319px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: #323E1E;
+        flex-shrink: 0;
+        font-family: "Julius Sans One";
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        height: 60px;
+        height: 84px;        
+        line-height: normal;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
+        width: 319px;
+        width: 301px;
+    }
+
+    .title {
+        color: #DAE6C6;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: "Julius Sans One";
+        font-size: 128px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .Tournaments {
+        background-color: #DAE6C6;
+        border: #DAE6C6;
+        border-radius: 21px;
+        border-width: 319px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: #323E1E;
+        flex-shrink: 0;
+        font-family: "Julius Sans One";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        height: 55px;
+        height: 84px;    
+        line-height: normal;
+        padding: 10px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
+        width: 319px;
+        width: 301px;
+    }
+    .PV {
+        background-color: #DAE6C6;
+        border: #DAE6C6;
+        border-radius: 21px;
+        border-width: 319px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: #323E1E;
+        flex-shrink: 0;
+        font-family: "Julius Sans One";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        height: 67px;
+        height: 84px;        
+        line-height: normal;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
+        width: 319px;
+        width: 207px;
+    }
+    .Leaderboards {
+        background-color: #DAE6C6;
+        border: #DAE6C6;
+        border-radius: 21px;
+        border-width: 319px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: #323E1E;
+        flex-shrink: 0;
+        font-family: "Julius Sans One";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        height: 53px;
+        height: 84px;        
+        line-height: normal;
+        padding: 15px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
+        width: 319px;
+        width: 306px;
+    }
 
 #puzzles {
-    color: blue;
-}
+    background-image: url("../Images/puzzles.png");
+    color: #DAE6C6;}
 
 #news {
-    color: antiquewhite;
-} 
+    background-image: url("../Images/news.png");
+    color: #DAE6C6;} 
+
+#Social {
+    background-image: url("../Images/social.png");
+    color: #DAE6C6;}
+
+#Watch {
+    color: #DAE6C6;}

@@ -18,6 +18,7 @@ body{
     text-align: center;
     width: 1440px;
 }
+
 .title {
     display:flexbox;
     font-size: 200px;
