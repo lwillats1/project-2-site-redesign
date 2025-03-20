@@ -16,8 +16,7 @@ body{
     justify-content: space-between;
     margin: 0;
     text-align: center;
-    width: 1440px;
-}
+    width: auto;}
 
 .title {
     display:flexbox;
@@ -35,13 +34,17 @@ body{
     font-style: normal;
     font-weight: 400;
     height: 36px;
+    justify-content: center;
     line-height: 500px;
+    width: auto;
 }
 .login {
-    align-content: center;
     flex-direction: row;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
     height: 36px;
+    justify-content:center ;
+    line-height: 1000px;
+    width: auto;
 }

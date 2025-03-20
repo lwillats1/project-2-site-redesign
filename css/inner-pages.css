@@ -14,122 +14,164 @@ body {
 #play {
     background-image: url("../Images/play.png");
     color: #DAE6C6;
-    width: 1440px;
-    height: 1774px;
+    width:auto;
+    height:auto;
     flex-shrink: 0;
     
 }
-    .firstboard {
-        margin: ;
-    }
-    .Play{
-        background-color: #DAE6C6;
-        border: #DAE6C6;
-        border-radius: 21px;
-        border-width: 319px;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        color: #323E1E;
-        flex-shrink: 0;
-        font-family: "Julius Sans One";
-        font-size: 69px;
-        font-style: normal;
-        font-weight: 400;     
-        height: 40px;
-        height: 84px;
-        line-height: normal;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
-        width: 184px;
 
-    }
-    .Bots {
-        background-color: #DAE6C6;
-        border: #DAE6C6;
-        border-radius: 21px;
-        border-width: 319px;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        color: #323E1E;
-        flex-shrink: 0;
-        font-family: "Julius Sans One";
-        font-size: 60px;
-        font-style: normal;
-        font-weight: 400;
-        height: 60px;
-        height: 84px;        
-        line-height: normal;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
-        width: 319px;
-        width: 301px;
-    }
+#play .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 5%;
+    justify-content: center; /* horizontal centering */
+}
 
-    .title {
-        color: #DAE6C6;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: "Julius Sans One";
-        font-size: 128px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
 
-    .Tournaments {
-        background-color: #DAE6C6;
-        border: #DAE6C6;
-        border-radius: 21px;
-        border-width: 319px;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        color: #323E1E;
-        flex-shrink: 0;
-        font-family: "Julius Sans One";
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 400;
-        height: 55px;
-        height: 84px;    
-        line-height: normal;
-        padding: 10px;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
-        width: 319px;
-        width: 301px;
-    }
-    .PV {
-        background-color: #DAE6C6;
-        border: #DAE6C6;
-        border-radius: 21px;
-        border-width: 319px;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        color: #323E1E;
-        flex-shrink: 0;
-        font-family: "Julius Sans One";
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 400;
-        height: 67px;
-        height: 84px;        
-        line-height: normal;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
-        width: 319px;
-        width: 207px;
-    }
-    .Leaderboards {
-        background-color: #DAE6C6;
-        border: #DAE6C6;
-        border-radius: 21px;
-        border-width: 319px;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        color: #323E1E;
-        flex-shrink: 0;
-        font-family: "Julius Sans One";
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 400;
-        height: 53px;
-        height: 84px;        
-        line-height: normal;
-        padding: 15px;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
-        width: 319px;
-        width: 306px;
-    }
+/* .chessboard,
+.chessboard * {
+    box-sizing: border-box;
+} */
+
+.chessboard {
+    flex-basis: 30%;
+    flex-shrink: 1;
+    max-width: 528px;
+}
+
+.chessboard img {
+    mix-blend-mode: luminosity;
+    /* width: 528px;
+    max-width: 90%; */
+    position: relative;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+.chessboard .button {
+    background-color: #DAE6C6;
+    border: #DAE6C6;
+    border-radius: 21px;
+    border-width: 319px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #323E1E;
+    display: inline-block;
+    font-family: "Julius Sans One";
+    font-size: 69px;
+    font-style: normal;
+    font-weight: 400;     
+    /* height: 40px;
+    height: 84px; */
+    line-height: normal;
+    margin: auto;
+    margin-top: 12px;
+    padding: 12px 36px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
+    /* width: 184px; */
+    min-width: 200px;
+
+}
+.Bots {
+    background-color: #DAE6C6;
+    border: #DAE6C6;
+    border-radius: 21px;
+    border-width: 319px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #323E1E;
+    flex-shrink: 0;
+    font-family: "Julius Sans One";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    height: 60px;
+    height: 84px;        
+    line-height: normal;
+    margin: auto;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
+    width: 319px;
+    width: 301px;
+}
+
+.title {
+    border-radius: 21px;
+    opacity: 0.86;
+    background: #323E1E;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #DAE6C6;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Julius Sans One";
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: auto;
+    max-width: 50;
+    width: 100%;
+}
+
+.Tournaments {
+    background-color: #DAE6C6;
+    border: #DAE6C6;
+    border-radius: 21px;
+    border-width: 319px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #323E1E;
+    flex-shrink: 0;
+    font-family: "Julius Sans One";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    height: 55px;
+    height: 84px;    
+    line-height: normal;
+    margin: auto;
+    padding: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
+    width: 319px;
+    width: 301px;
+}
+.PV {
+    background-color: #DAE6C6;
+    border: #DAE6C6;
+    border-radius: 21px;
+    border-width: 319px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #323E1E;
+    flex-shrink: 0;
+    font-family: "Julius Sans One";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    height: 67px;
+    height: 84px;        
+    line-height: normal;
+    margin: auto;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
+    width: 319px;
+    width: 207px;
+}
+.Leaderboards {
+    background-color: #DAE6C6;
+    border: #DAE6C6;
+    border-radius: 21px;
+    border-width: 319px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #323E1E;
+    flex-shrink: 0;
+    font-family: "Julius Sans One";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    height: 53px;
+    height: 84px;        
+    line-height: normal;
+    margin: auto;
+    padding: 15px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
+    width: 319px;
+    width: 306px;
+}
 
 #puzzles {
     background-image: url("../Images/puzzles.png");
