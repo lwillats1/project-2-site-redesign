@@ -11,6 +11,13 @@ body {
     background-image: url("../Images/learn.png")
 }
 
+#learn .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 5%;
+    justify-content: center; /* horizontal centering */
+    }
+
 #play {
     background-image: url("../Images/play.png");
     color: #DAE6C6;
@@ -175,6 +182,13 @@ body {
 #puzzles {
     background-image: url("../Images/puzzles.png");
     color: #DAE6C6;}
+
+#puzzles .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 5%;
+    justify-content: center; /* horizontal centering */
+    }
 
 #news {
     background-image: url("../Images/news.png");
