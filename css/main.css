@@ -22,14 +22,15 @@ body{
     justify-content: space-between;
     margin: 0;
     text-align: center;
-    width: auto;
+    width:auto;
 
 }
 
 .button{
-    display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap:wrap;
     gap: 48px 5%;
+    image-resolution: 100%;
     justify-content: center; /* horizontal centering */
 }
 
@@ -63,6 +64,8 @@ body{
     gap: 48px 5%;
     justify-content: center; /* horizontal centering */
 }
+
+
 
 .chesspiece img {
     mix-blend-mode: luminosity;
