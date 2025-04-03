@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
 /* Browser/Display fixes */
 /*Box sizing fix from https://css-tricks.com/almanac/properties/b/box-sizing/ */
 
 html,
 *, *::before, *::after {
     box-sizing: border-box;
-}
+}  
+
 body{
     align-content: space-between;
     background-color: #5d6949;
@@ -12,19 +15,31 @@ body{
     background-position: center;
     background-size: cover;
     color: rgb(248, 248, 248);
-    height: 1440px;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: auto;
     justify-content: space-between;
     margin: 0;
     text-align: center;
-    width: auto;}
+    width: auto;
+
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 5%;
+    justify-content: center; /* horizontal centering */
+}
 
 .title {
     display:flexbox;
     font-size: 200px;
     font-style: normal;
     font-weight: 400;
-    height: 146px;
-    line-height: 50px;
+    height: auto;
+    line-height: auto;
 
 }
 .toolbar {
@@ -33,17 +48,37 @@ body{
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
-    height: 36px;
+    height: auto;
     justify-content: center;
     line-height: 500px;
     width: auto;
 }
+
+.chesspiece{
+    flex-basis: 30%;
+    flex-shrink: 1;
+    max-width: 528px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 5%;
+    justify-content: center; /* horizontal centering */
+}
+
+.chesspiece img {
+    mix-blend-mode: luminosity;
+    /* width: 528px;
+    max-width: 90%; */
+    position: relative;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
 .login {
     flex-direction: row;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
-    height: 36px;
+    height: auto;
     justify-content:center ;
     line-height: 1000px;
     width: auto;
