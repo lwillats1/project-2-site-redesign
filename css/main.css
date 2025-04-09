@@ -26,14 +26,6 @@ body{
 
 }
 
-.button{
-    flex-direction: row;
-    flex-wrap:wrap;
-    gap: 48px 5%;
-    image-resolution: 100%;
-    justify-content: center; /* horizontal centering */
-}
-
 .title {
     display:flexbox;
     font-size: 200px;
@@ -55,27 +47,6 @@ body{
     width: auto;
 }
 
-.chesspiece{
-    flex-basis: 30%;
-    flex-shrink: 1;
-    max-width: 528px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 48px 5%;
-    justify-content: center; /* horizontal centering */
-}
-
-
-
-.chesspiece img {
-    mix-blend-mode: luminosity;
-    /* width: 528px;
-    max-width: 90%; */
-    position: relative;
-    object-fit: cover;
-    aspect-ratio: 1;
-}
-
 .login {
     flex-direction: row;
     font-size: 32px;
@@ -83,6 +54,5 @@ body{
     font-weight: 400;
     height: auto;
     justify-content:center ;
-    line-height: 1000px;
     width: auto;
 }
