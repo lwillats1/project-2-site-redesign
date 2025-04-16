@@ -210,6 +210,17 @@ body {
     justify-content: center;
 } 
 
+#news .h2 { 
+    border-width: 319px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0%;
+    padding-left: auto;
+    padding-top: 30px;
+    text-align: left;
+}
+
+
 #news .content{
     align-content: center;
     justify-content: center;
@@ -229,7 +240,6 @@ body {
 }
 
 #news .davaun{
-    @import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
     border-width: 319px;
     background: #323e1e88;
     flex-shrink: 0;
