@@ -28,49 +28,43 @@ body{
 }
 
 .title {
-    display:flexbox;
-    font-size: 200px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 400;
     height: auto;
     line-height: auto;
+    text-align: center;
 
+    @supports (font-size: min(10vw, 200px)) {
+        font-size: min(10vw, 200px);
+    }
 }
+
 .toolbar {
-    display:flex;   
+    display: flex;   
     flex-direction: row;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    height: auto;
+    flex-wrap: wrap;
+    gap: 25px;
     justify-content: center;
-    line-height: 500px;
-    margin-top: 20px;
-    width: auto;
+}
 
-
+.toolbar a {
     background-color: #5d694970;
-    border: #4e5248;
     border-radius: 21px;
-    border-width: 319px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     color: #ffffff;
-    display: inline-block;
     font-size: 50px;
     font-style: normal;
-    font-weight: 400;     
-    /* height: 40px;
-    height: 84px; */
-    line-height: normal;
-    margin: auto;
+    font-weight: 400;
+    line-height: 1.2;
     padding: 12px 36px;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);      
-    /* width: 184px; */
+}
 
-
-
-
+.toolbar a:hover {
+    background-color: #ffffff;
+    color: #5d694970;
 }
 
 .login {
